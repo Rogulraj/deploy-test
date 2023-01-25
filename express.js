@@ -12,7 +12,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
 
-const dbPath = path.join(__dirname, "user.db");
+const dbPath = path.join(__dirname, "details.db");
 
 let db = null;
 
