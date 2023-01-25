@@ -1,0 +1,11 @@
+POST http://localhost:3030/api/create
+###
+POST http://localhost:3030/api/add
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Siva"
+}
+###
+GET http://localhost:3030/api/get
