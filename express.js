@@ -12,7 +12,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const helmet = require("helmet");
 
-const dbPath = path.join(__dirname, "sq.db");
+const dbPath = path.join(__dirname, "user.db");
 
 let db = null;
 
@@ -27,7 +27,7 @@ const connect = async () => {
       if (err) {
         console.error(err.message);
       } else {
-        console.log("Connected to the SQ_DB database");
+        console.log("Connected to the USER_DB database");
       }
     });
     app.listen(3030, () => {
